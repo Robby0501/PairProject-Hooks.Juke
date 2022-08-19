@@ -1,9 +1,10 @@
 import React from "react";
+import sideBar from './sideBar'
 
 const Main = () => {
   return (
     <div id="main" className="row container">
-      {/* The music starts here! */}
+      <sideBar />
     </div>
   );
 };
